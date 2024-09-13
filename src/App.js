@@ -33,18 +33,16 @@ function App() {
       <div className="app-containerer">
         <header className="header">
           <div className="header-content">
-            <h1>Connect and build together</h1>
-            <p>
-              {" "}
-              Connect and build with 85,000+ community members around the world
-              — whether you're new to Webflow or a seasoned designer, there's a
-              place for you.
-            </p>
+            <h1>Encuentra el evento que necesitas</h1>
+            <p> </p>
           </div>
 
           <div className="header-image">
             <img src="earth.png" />
           </div>
+
+          <button className="btn-get-started">Buscar evento</button>
+          <button className="btn-get-started">Agregar evento</button>
         </header>
         <section className="livestreams-section"></section>
       </div>
